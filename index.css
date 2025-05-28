@@ -257,7 +257,7 @@ body::-webkit-scrollbar{
     letter-spacing: 8px;
 }
 #experienceContent{
-  opacity: 0;
+   opacity: 0;
    transform: translateY(50px);
    animation: slideIn 1s 1.8s forwards;
    animation-timeline: view();
@@ -379,7 +379,6 @@ body::-webkit-scrollbar{
 }
 .projectDiv{
     height: 1000px;
-    margin-bottom: 500px;
 }
 #projectContent > h1{
     text-align: center;
@@ -759,8 +758,7 @@ a:hover {
     letter-spacing: 8px;
 }
 .projectDiv{
-  height: 1500px;
-  margin-bottom: 1700px;
+  height: 3200px;
 }
 #projectContent > h1{
   font-size: 30px ; 
@@ -852,6 +850,26 @@ a:hover {
 }
 }
 
+@media screen and (min-width: 341px) and (max-width: 346px) {
+  .projectDiv{
+    height: 3000px;
+  }
+}
+@media screen and (min-width: 347px) and (max-width: 355px) {
+  .projectDiv{
+    height: 2900px;
+  }
+}
+@media screen and (min-width: 356px) and (max-width: 375px) {
+  .projectDiv{
+    height: 2800px;
+  }
+}
+@media screen and (min-width: 376px) and (max-width: 399px) {
+  .projectDiv{
+    height: 2300px;
+  }
+}
 /* Secondary Media Query ! */
 @media screen and (min-width: 400px) and (max-width: 480px){
   .dp{
@@ -873,8 +891,7 @@ a:hover {
       font-size: 13px; 
     }
     .projectDiv{
-      height: 1400px;
-      margin-bottom: 1000px;
+      height: 2000px;
     }
     #downloadBtn{
       margin: 20px 0px 0px 100px;         
@@ -883,9 +900,14 @@ a:hover {
       font-size: 12px; 
       float: left;
     }
+    
 
 }
-
+@media screen and (min-width: 400px) and (max-width: 430px) {
+  .projectDiv{
+    height: 2250px;
+  }
+}
 
 /* --------------------------------------------------------------------- */
 
@@ -999,8 +1021,7 @@ a:hover {
     letter-spacing: 8px;
 }
 .projectDiv{
-  height: 1000px;
-  margin-bottom: 1000px;
+  height: 1600px;
 }
 #projectContent > h1{
   font-size: 30px ; 
@@ -1199,8 +1220,7 @@ a:hover {
 }
 
 .projectDiv{
-  height: 950px;
-  margin-bottom: 1000px;
+  height: 1550px;
 }
 #projectContent > h1{
   font-size: 35px ; 
@@ -1387,8 +1407,7 @@ a:hover {
     transform: scale(1.2) rotate(0deg); /* Slight rotation effect on hover */
   }
   .projectDiv{
-    height: 950px;
-    margin-bottom: 1000px;
+    height: 1350px;
   }
   #projectContent > h1{
     font-size: 35px ; 
@@ -1585,8 +1604,7 @@ a:hover {
     letter-spacing: 8px;
 }
 .projectDiv{
-  height: 900px;
-  margin-bottom: 1000px;
+  height: 1300px;
 }
 #projectContent > h1{
   font-size: 35px ; 
@@ -1783,8 +1801,7 @@ a:hover {
     letter-spacing: 8px;
 }
 .projectDiv{
-  height: 800px;
-  margin-bottom: 1000px;
+  height: 1200px;
 }
 #projectContent > h1{
   font-size: 35px ; 
@@ -1996,8 +2013,7 @@ a:hover {
     letter-spacing: 10px;
 }
 .projectDiv{
-  height: 850px;
-  margin-bottom: 1000px;
+  height: 1100px;
 }
 #projectContent > h1{
   font-size: 37px ; 
@@ -2211,8 +2227,7 @@ a:hover {
     letter-spacing: 10px;
 }
 .projectDiv{
-  height: 850px;
-  margin-bottom: 1000px;
+  height: 1000px;
 }
 #projectContent > h1{
   font-size: 40px ; 
@@ -2426,8 +2441,7 @@ a:hover {
     letter-spacing: 12px;
 }
 .projectDiv{
-  height: 900px;
-  margin-bottom: 1000px;
+  height: 1100px;
 }
 #projectContent > h1{
   font-size: 40px ; 
@@ -2630,7 +2644,6 @@ a:hover {
 }
 .projectDiv{
   height: 900px;
-  margin-bottom: 1000px;
 }
 #projectContent > h1{
   font-size: 40px ; 
@@ -2832,7 +2845,6 @@ a:hover {
 }
 .projectDiv{
   height: 900px;
-  margin-bottom: 1000px;
 }
 #projectContent > h1{
   font-size: 40px ; 
@@ -2958,7 +2970,6 @@ a:hover {
 }
 .projectDiv{
   height: 900px;
-  margin-bottom: 1000px;
 }
 #projectContent > h1{
   font-size: 45px ; 
